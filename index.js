@@ -29,7 +29,6 @@ app.post('api/genres', (req, res) => {
     res.send(genre);
 });
 
-
 const port = process.env.port || 3000;
 
 app.listen(3000, () => console.log(`Listening on port ${port}...`));
